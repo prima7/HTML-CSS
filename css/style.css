@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+}
+@media screen and (max-width: 700px) {
+    .profile {   
+      flex-direction: column;
+    }
+}
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #EFEFEF;
+}
+.details {
+    display: flex;
+    flex-wrap: wrap;
+}
+.bio {
+    flex: 50%;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 2px #0A1931;
+    border: 1px solid #0A1931;
+}
+.side {
+    flex: 30%;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 2px #0A1931;
+    border: 1px solid #0A1931;
+}
+.bio > p {
+    width: 100%;
+    font-size: 18px;
+    text-align: justify;
+    text-indent: 40px;
+    line-height: 1.5;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+}
+.career > ul {
+    width: 100%;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 2;
+}
+.archieve > ul {
+    width: 100%;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 2;
+}
+.bio > h2 {
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: #0A1931;
+    height: 50px;
+    margin-top: 0px;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.career > h2 {
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: #0A1931;
+    height: 50px;
+    margin-top: 0px;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.archieve > h2 {
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: #0A1931;
+    height: 50px;
+    margin-top: 0px;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.profile {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #0A1931;
+    box-shadow: 3px 5px 2px #272727;
+}
+.profilephoto {
+    flex: 22%;
+    align-self: center;
+}
+.profilephoto > img {
+    width: 100%;
+    height: 100%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.profileflag {
+    flex: 10%;
+    padding-top: 30px;
+    margin-left: 50px;
+    align-self: center;
+}
+.profileflag > img {
+    width: 80%;
+    height: 80%;
+}
+.profilename {
+    flex:23%;
+    color: white;
+    padding: 10px;
+    align-self: center;
+}
+.profilename > p {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    line-height: 1.3;
+}
+.profileteam > img {
+    width: 85%;
+    height: 70%;
+    background-color: white;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
+.profileteam {
+    flex: 27%;
+    color: white;
+    align-self: center;
+}
+.profileteam > h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.number {
+    flex:15%;
+    color: white;
+    align-self: center;
+}
+.number > h3 {
+    text-align: center;
+}
+.number > h1 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80px;
+    letter-spacing: 5px;
+    margin-top: 0;
+}
